@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String</title>
+    <meta charset="utf-8">
+    <script src="JS/main.js"></script>
+  </head>
+    
+    <body>
+        <!--concat() Method-->
+        <p id="Concat" onclick="complete_Sentence()">Concatenate me!</p>
+        <br>
+
+        <!--slice() Method-->
+        <p>Slice the phrase and return the letters in the position 21 - 26. <br>
+            All work and no play makes Jack a dull boy</p>
+        <button onclick="slice_Method()">Slice me!</button>
+        <p id = "Slice" ></p>
+        <br>
+
+        <!--UpperCase() method-->
+        <input type="text" id="input-text"> <!--creates input box-->
+        <button onclick="convertToUpper()">Convert to Uppercase</button>
+        <p id="output"></p>
+        <br>
+
+        <!--search() method-->
+        <!--The search() method returns the position of the first occurrence of a string in a string.-->
+        <p>"Please locate where \'cocoloco\' occurs!"<br>
+            We are looking for the position of the first occurrence of "cocoloco" is:</p>
+        <button onclick="complete_Search()">Search me!</button>
+        <p id="Search"></p>
+        <br>
+        
+
+        <!--search() method example 2-->
+        <p>We are looking for the position <br> 
+            of the word "over" in the phrase: <br>
+            "The quick brown fox jumps over the lazy dog."</p>
+        <input type="text" id="input-text2" value="The quick brown fox jumps over the lazy dog.">
+        <button onclick="searchForText()">Search for Text</button>
+        <p id="output2"></p>
+        <br>
+
+        <!--Number method toString()-->
+        <button onclick="string_Method()">String-ify me!</button>
+        <p id="Number_to_string"></p>
+        <br>
+
+        <!--toPrecision() Method-->
+        <button onclick="precision_Method()">Precise me!</button>
+        <p id="Precision"></p>
+        <br>
+
+        <!--toFixed() Method.-->
+        <p>toFixed() converts a number to a string, rounded to a specified number of decimals:</p>
+        <button onclick="toFixed_Method()">Fix me!</button>
+        <p id="Fixed"></p>
+        <br>
+
+        <!--valueOf() Method-->
+        <p>valueOf() returns the primitive value of a string:</p>
+        <button onclick="valueOf_Method()">ValueOf me!</button>
+        <p id="valueOf"></p>
+        <br>
+
+    </body>
+
+</html>
