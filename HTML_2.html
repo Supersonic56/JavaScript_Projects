@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+    <meta lang="en">
+    <link rel="stylesheet" type="text/css" href="CSS/CSS_2.css">
+	<script defer src="JavaScript/JavaScript_2.js"></script>
+</head>
+
+<body>
+<!--HTML Form-->
+<h2>Text input fields</h2>
+
+<div>
+    <form name="myForm"  
+    onsubmit="return validateForm()" method="post">
+    
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Joe" required><br>
+    
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Dang" required><br><br>
+    
+    <label for="country">Country</label>
+        <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        </select>
+
+    <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+</body>
+</html>

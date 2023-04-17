@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switch</title>
+    <meta lang="en">
+	<script defer src="JavaScript/JavaScript_1.js"></script>
+</head>
+<body>
+    <!--Switch Statement-->
+	<h1>Welcome to the Switch Statement!</h1>
+	<p>This is some example content.</p>
+
+    <label for="day">Select a day of the week:</label>
+    <select id="day" onchange="showMessage()">
+        <option value="">--Please choose an option--</option>
+        <option value="1">Sunday</option>
+        <option value="2">Monday</option>
+        <option value="3">Tuesday</option>
+        <option value="4">Wednesday</option>
+        <option value="5">Thursday</option>
+        <option value="6">Friday</option>
+        <option value="7">Saturday</option>
+    </select>
+    <p id="message"></p>
+    <br>
+    <!--getElementsByClassName() Method-->
+    <h1 class="Click">This text will change!</h1>
+    <h3 class="Click">This text will not change. </h3> 
+    <button onclick="Hello_World_Function ()">Click me!</button>
+    <br>
+    <br>
+    <!--HTML <canvas> Element-->
+    <canvas id="my_Canvas" width="500" height="250" style="border:5px solid black"></canvas>
+    <br>
+    <br>   
+    <!--HTML <canvas> Element. exercise with inserting a drawing into the canvas-->
+        <p><button onclick="my_Canvas2_function()">Try it</button></p>
+        <canvas id="my_Canvas2" width="500" height="250" style="border:5px solid rgb(102, 5, 3)"></canvas>
+        <img id="build" src="buildJS.png" alt="Build with JS. poster" width="450" height="225" hidden="hidden">
+        
+    </body>
+</html>
